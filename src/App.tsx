@@ -58,7 +58,7 @@ const App = () => {
       {country && (
         <div className="mt-3">
           <div className="card" style={{ width: "100%" }}>
-            <img src={country.flags.svg} width={"100%"} />
+            <img src={country.flags.svg} width={"100%"} alt="flag" />
             <div className="card-body">
               <h6 className="card-title">
                 {country.name.common} - {country.name.official}
